@@ -8,7 +8,7 @@ namespace Pentadome.DotNet.Utilities
 {
     public static class AssemblyExtensions
     {
-        public static IEnumerable<Type> GetExportedTypesIgnoreExceptions(this Assembly @this)
+        public static IEnumerable<Type> GetExportedTypesSkipExceptions(this Assembly @this)
         {
             if (@this is null)
                 throw new ArgumentNullException(nameof(@this));

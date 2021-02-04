@@ -10,7 +10,7 @@ namespace Pentadome.DotNet.Utilities
         /// Equivalent to <see cref="IConvertible.ToString(IFormatProvider)"/> with <see cref="IFormatProvider"/> = <see cref="CultureInfo.InvariantCulture"/>.
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static string ToInvariantString(this IConvertible @this)
+        public static string ToInvariantString<T>(this T @this) where T : IConvertible
         {
             if (@this is null)
                 throw new ArgumentNullException(nameof(@this));
