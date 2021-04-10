@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pentadome.DotNet.EntityFrameWorkCore.Utilities", "Pentadome.DotNet.EntityFrameWorkCore.Utilities\Pentadome.DotNet.EntityFrameWorkCore.Utilities.csproj", "{4593BD3E-A4B0-4A76-B803-EA06BDC6A684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{11F75BA9-D856-471F-A76F-7BF38B5FB3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F75BA9-D856-471F-A76F-7BF38B5FB3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F75BA9-D856-471F-A76F-7BF38B5FB3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4593BD3E-A4B0-4A76-B803-EA06BDC6A684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4593BD3E-A4B0-4A76-B803-EA06BDC6A684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4593BD3E-A4B0-4A76-B803-EA06BDC6A684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4593BD3E-A4B0-4A76-B803-EA06BDC6A684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
